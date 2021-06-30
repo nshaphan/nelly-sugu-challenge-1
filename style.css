@@ -1,0 +1,104 @@
+body {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: rgba(249,250,251,1);
+}
+
+* {
+    box-sizing: border-box;
+}
+.username {
+    color: #6e6d7a;
+    font-size: 14px;
+    font-weight: normal;
+}
+.names {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    color: rgb(6, 78, 59);
+}
+
+.btn {
+    background: #f3f3f4;
+    color: #0d0c22;
+    padding: 10px 16px;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    transition: color 200ms ease;
+    transition: background-color 200ms ease;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.btn:hover {
+    text-decoration: none;
+    color: rgb(5, 150, 105);
+    background-color: rgb(209, 250, 229);
+}
+
+.email {
+    color: #6e6d7a;
+}
+
+.card {
+    border-radius: .75rem;
+    box-shadow: rgb(0 0 0 / 5%) 0px 1px 2px 0px;
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 4px;
+}
+
+.info {
+    padding-bottom: 12px;
+}
+
+.container {
+    padding: 20px;
+    margin: auto;
+}
+
+@media (min-width: 640px) {
+    .d-flex-md {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+    
+}
+
+.post-title {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: rgb(6, 78, 59);
+    text-decoration: none;
+    font-weight: 800
+}
+
+.page-title {
+    color: rgb(6, 78, 59);
+}
+
+.post-title:hover {
+    color: rgb(5, 150, 105);
+}
